@@ -3,6 +3,10 @@ from modules.output import *
 from modules.Data.task_list import *
 from modules.input import *
 
+original_tasks = input("Do you want to load previous tasks (y/n)? ")
+if original_tasks == "y":
+    from modules.Data.task_list import tasks
+
 while True:
     print_menu()
     option = select_option()

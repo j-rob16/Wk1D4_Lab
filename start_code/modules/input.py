@@ -11,8 +11,3 @@ def select_description():
 def select_duration():
     duration = int(input("Enter task duration: "))
     return duration
-
-
-def select_duration():
-    duration = int(input("Enter task duration: "))
-    return duration
